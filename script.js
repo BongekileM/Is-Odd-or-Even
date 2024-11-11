@@ -5,6 +5,11 @@ function oddOrEven(num) {
         return "Please enter a valid number.";
     }
 
+    // Check if the input is a whole number
+    if (!Number.isInteger(parseFloat(num))) {
+        return "Please enter a whole number.";
+    }
+
     // Convert input to integer for modulo operation
     const parsedNum = parseInt(num, 10);
 
