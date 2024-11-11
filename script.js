@@ -14,11 +14,9 @@ function oddOrEven(num) {
     const parsedNum = parseInt(num, 10);
 
     // Check if the number is odd or even
-    if (parsedNum % 2 === 0) {
-        return `The number ${parsedNum} is Even.`;
-    } else {
-        return `The number ${parsedNum} is Odd.`;
-    }
+    return parsedNum % 2 === 0
+        ? `The number ${parsedNum} is Even.`
+        : `The number ${parsedNum} is Odd.`;
 }
 
 // Handle button click to display the result
@@ -36,4 +34,3 @@ document.getElementById('numberInput').addEventListener('keydown', (event) => {
         document.getElementById('result').textContent = result;
     }
 });
-
