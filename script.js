@@ -1,10 +1,24 @@
-function oddOrEven(num){
-    if ((Math.abs(num % 2) == 1)) {
-        return "The number "+ num +" is Odd";
-    } else if (num % 2 == 0) {
-        return "The number "+ num +" is Even";
-    } else {
-        return "The entered value is invalid.";
+
+function oddOrEven(num) {
+    // Check if input is a valid number
+    if (isNaN(num)) {
+        return "Please enter a valid number.";
     }
-} 
-console.log(oddOrEven(11));
+
+    // Convert input to integer for modulo operation
+    const parsedNum = parseInt(num, 10);
+
+    // Check if the number is odd or even
+    if (parsedNum % 2 === 0) {
+        return `The number ${parsedNum} is Even.`;
+    } else {
+        return `The number ${parsedNum} is Odd.`;
+    }
+}
+
+// Handle button click to display the result
+document.getElementById('checkButton').addEventListener('click', () => {
+    const userInput = document.getElementById('numberInput').value;
+    const result = oddOrEven(userInput);
+    document.getElementById('result').textContent = result;
+});
