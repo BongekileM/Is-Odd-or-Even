@@ -27,3 +27,13 @@ document.getElementById('checkButton').addEventListener('click', () => {
     const result = oddOrEven(userInput);
     document.getElementById('result').textContent = result;
 });
+
+// Handle Enter key press to trigger the check
+document.getElementById('numberInput').addEventListener('keydown', (event) => {
+    if (event.key === 'Enter') {
+        const userInput = document.getElementById('numberInput').value;
+        const result = oddOrEven(userInput);
+        document.getElementById('result').textContent = result;
+    }
+});
+
