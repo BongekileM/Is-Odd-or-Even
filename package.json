@@ -1,0 +1,13 @@
+{
+  "name": "is-odd-or-even",
+  "version": "1.0.0",
+  "description": "A simple JavaScript program that determines if a given number is odd or even.",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

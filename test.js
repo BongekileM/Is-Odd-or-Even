@@ -1,3 +1,4 @@
+import { oddOrEven } from "./script.js";
 
 function runTests() {
     const tests = [
@@ -11,8 +12,11 @@ function runTests() {
         { input: "hello", expected: "Please enter a valid number." },
         { input: {}, expected: "Please enter a valid number." },
         { input: ".", expected: "Please enter a valid number." },
+        { input: 999999999999, expected: "The number 999999999999 is Odd." },
         { input: 0, expected: "The number 0 is Even." },
-        { input: 0, expected: "The number 0 is Even." },
+        { input: "", expected: "Please enter a valid number." },
+        { input: " ", expected: "Please enter a valid number." },
+        { input: null, expected: "Please enter a valid number."}
     ];
 
     tests.forEach(({ input, expected }, index) => {
@@ -22,4 +26,3 @@ function runTests() {
 }
 
 runTests();
-

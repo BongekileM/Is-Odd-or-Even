@@ -1,5 +1,4 @@
-
-function oddOrEven(num) {
+export function oddOrEven(num) {
     // Check if input is a valid number
     if (isNaN(num)) {
         return "Please enter a valid number.";
@@ -18,19 +17,3 @@ function oddOrEven(num) {
         ? `The number ${parsedNum} is Even.`
         : `The number ${parsedNum} is Odd.`;
 }
-
-// Handle button click to display the result
-document.getElementById('checkButton').addEventListener('click', () => {
-    const userInput = document.getElementById('numberInput').value;
-    const result = oddOrEven(userInput);
-    document.getElementById('result').textContent = result;
-});
-
-// Handle Enter key press to trigger the check
-document.getElementById('numberInput').addEventListener('keydown', (event) => {
-    if (event.key === 'Enter') {
-        const userInput = document.getElementById('numberInput').value;
-        const result = oddOrEven(userInput);
-        document.getElementById('result').textContent = result;
-    }
-});
