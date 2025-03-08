@@ -2,9 +2,11 @@
   "name": "is-odd-or-even",
   "version": "1.0.0",
   "description": "A simple JavaScript program that determines if a given number is odd or even.",
-  "main": "app.js",
+  "main": "main.js",
   "type": "module",
   "scripts": {
+    "start": "node main.js",
+    "test": "jest"
   },
   "license": "ISC",
   "devDependencies": {
@@ -14,6 +16,8 @@
   },
   "babel": {
     "presets": ["@babel/preset-env"]
+  },
+  "engines": {
+    "node": ">=14.0.0"
   }
 }
-
