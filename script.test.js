@@ -1,7 +1,13 @@
+/**
+ * @file script.test.js
+ * @description Test suite for the oddOrEven function.
+ * Verifies correct responses for various valid and invalid inputs.
+ */
+
 import { oddOrEven } from "./script.js";
 
 describe("oddOrEven", () => {
-  const tests = [
+  const testCases = [
     { input: 10, expected: "The number 10 is Even." },
     { input: 11, expected: "The number 11 is Odd." },
     { input: -70, expected: "The number -70 is Even." },
@@ -19,9 +25,10 @@ describe("oddOrEven", () => {
     { input: null, expected: "Please enter a valid number." }
   ];
 
-  tests.forEach(({ input, expected }, index) => {
-    test(`Test ${index + 1}: for input ${JSON.stringify(input)}`, () => {
+  test.each(testCases)(
+    "returns '$expected' for input $input",
+    ({ input, expected }) => {
       expect(oddOrEven(input)).toBe(expected);
-    });
-  });
+    }
+  );
 });
