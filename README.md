@@ -30,6 +30,7 @@ This JavaScript program lets the user know if a given whole number is **Odd** or
 **To run the program, use:**
     ```bash
     npm start
+
 This command executes the CLI application. You’ll be prompted to enter a number, and the program will indicate whether the number is odd or even. Type "exit" to quit the application. 👋
 
 ### Running the Tests 🧪
