@@ -28,8 +28,8 @@ This JavaScript program lets the user know if a given whole number is **Odd** or
 
 ### Running the Application ▶️
 To run the program, use:
-    ```bash
-    npm start
+```bash
+npm start
 
 This command executes the CLI application. You’ll be prompted to enter a number, and the program will indicate whether the number is odd or even. Type "exit" to quit the application. 👋
 
@@ -39,7 +39,7 @@ This command executes the CLI application. You’ll be prompted to enter a numbe
     npm test
 This command runs all test cases and displays the results in your terminal.
 
-### sage 📚
+### Usage 📚
 **When you run the program, you will see a prompt like:**
     ```bash
     Enter a number (or type "exit" to quit):
