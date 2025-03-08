@@ -1,10 +1,16 @@
 export function oddOrEven(num) {
+    
+    // Check for empty input, spaces, or null
+    if (num === null || num.toString().trim() === "") {
+        return "Please enter a valid number.";
+    }
+
     // Check if input is a valid number
     if (isNaN(num)) {
         return "Please enter a valid number.";
     }
 
-    // Check if the input is a whole number
+    // Check if input is a whole number
     if (!Number.isInteger(parseFloat(num))) {
         return "Please enter a whole number.";
     }
