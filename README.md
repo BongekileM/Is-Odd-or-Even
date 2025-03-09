@@ -45,24 +45,23 @@ This command runs all test cases and displays the results in your terminal.
 ```bash
 Enter a number (or type "exit" to quit):
 ```
-### Expected Inputs:
-✔ **Valid Input:**
-Enter a whole number (e.g., 15), and the program will respond with:
+### Expected Inputs 📌
 
-"The number 15 is Odd."
-"The number 24 is Even." 😃
+✔ **Valid Input:**  
+Enter a whole number (e.g., `15`), and the program will respond with:  
+> **"The number 15 is Odd."**  
+> **"The number 24 is Even."** 😃  
 
-❌ **Invalid Input:**
-Entering invalid values (e.g., "abc" or "15.5") will result in an error message:
+❌ **Invalid Input:**  
+Entering invalid values (e.g., `"abc"` or `"15.5"`) will result in an error message:  
+> **"Please enter a valid number."**  
+> **"Please enter a whole number."** ⚠️  
 
-"Please enter a valid number."
-"Please enter a whole number." ⚠️
-
-🚪 **Exit:**
-Type "exit" to terminate the program.
+🚪 **Exit:**  
+Type `"exit"` to terminate the program.
 
 ---
-Created by [Bongekile Mncube](https://github.com/BongekileM) ✨
+Created by [Bongekile Mncube](https://github.com/BongekileM)
 
 
 
