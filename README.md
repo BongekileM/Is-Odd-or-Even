@@ -66,7 +66,7 @@ npm test
 This will run all test cases for both the core logic and CLI interactions.
 
 ---
-Created by [Bongekile Mncube](https://github.com/BongekileM)
+Created by [Bongekile M](https://github.com/BongekileM)
 
 
 
