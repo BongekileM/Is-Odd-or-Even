@@ -31,10 +31,10 @@ To run the program, use:
 ```bash
 npm start
 ```
-This command executes the CLI application. You’ll be prompted to enter a number, and the program will indicate whether the number is odd or even. Type "exit" to quit the application. 👋
+This command executes the CLI application. You’ll be prompted to enter a number, and the program will indicate whether the number is **Odd** or **Even**. Type "exit" to quit the application. 👋
 
 ### Running the Tests 🧪
-To run the tests, execute:
+Run the following command to execute test cases:
 ```bash
 npm test
 ```
@@ -45,14 +45,20 @@ This command runs all test cases and displays the results in your terminal.
 ```bash
 Enter a number (or type "exit" to quit):
 ```
+### Expected Inputs:
+✔ Valid Input:
+Enter a whole number (e.g., 15), and the program will respond with:
 
-* Valid Input:
-Enter a whole number (e.g., "15") and the program will respond with "The number 15 is Odd." or "The number 15 is Even." 😃
+"The number 15 is Odd."
+"The number 24 is Even." 😃
 
-* Invalid Input:
-Enter an invalid value (such as "abc" or "15.5") to see an error message like "Please enter a valid number." or "Please enter a whole number." ⚠️
+❌ Invalid Input:
+Entering invalid values (e.g., "abc" or "15.5") will result in an error message:
 
-* Exit:
+"Please enter a valid number."
+"Please enter a whole number." ⚠️
+
+🚪 Exit:
 Type "exit" to terminate the program.
 
 ---
