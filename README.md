@@ -1,13 +1,20 @@
 # Is-Odd-or-Even ✨
-A simple JavaScript program that determines if a given number is odd or even.
+A simple JavaScript CLI program that determines whether a given number is odd or even.
 
 ![GirlCode logo](girlcode.png "Logo")
 
-This JavaScript program lets the user know if a given whole number is **Odd** or **Even**. It was created at GirlCode as a beginner practice exercise. 🚀
+## Overview 🚀
+This CLI program prompts the user to enter a number and determines if the number is odd or even.t was developed as a practice exercise at GirlCode.
+
+## Features 🌟
+- **Interactive CLI:** Continuously prompts for user input until "exit" is entered.
+- **Input Validation:** Handles various invalid cases (e.g., non-numeric values, decimals, empty inputs) with clear error messages.
+- **Unit Tested:** Includes comprehensive tests using Jest to verify both the core logic and terminal interactions.
 
 ## Built With 🛠️
-
-- **JavaScript**
+- **JavaScript (ES Modules)**
+- **Node.js**
+- **Jest**(for testing)
 
 ## Getting Started 💻
 
@@ -27,38 +34,36 @@ This JavaScript program lets the user know if a given whole number is **Odd** or
     npm install
 
 ### Running the Application ▶️
-To run the program, use:
+To run the program, use the following command:
 ```bash
 npm start
 ```
-This command executes the CLI application. You’ll be prompted to enter a number, and the program will indicate whether the number is **Odd** or **Even**. Type "exit" to quit the application. 👋
-
-### Running the Tests 🧪
-Run the following command to execute test cases:
-```bash
-npm test
-```
-This command runs all test cases and displays the results in your terminal.
-
-### Usage 📚
-**When you run the program, you will see a prompt like:**
+You will see the prompt:
 ```bash
 Enter a number (or type "exit" to quit):
 ```
 ### Expected Inputs 📌
 
-✔ **Valid Input:**  
-Enter a whole number (e.g., `15`), and the program will respond with:  
-> **"The number 15 is Odd."**  
-> **"The number 24 is Even."** 😃  
+✔ **Valid Input Example:**  
+Entering 15 displays: 
+```bash
+The number 15 is Odd.
+```
 
-❌ **Invalid Input:**  
-Entering invalid values (e.g., `"abc"` or `"15.5"`) will result in an error message:  
-> **"Please enter a valid number."**  
-> **"Please enter a whole number."** ⚠️  
-
+❌ **Invalid Input Example:**  
+Entering 15.5 displays:
+```bash
+Please enter a whole number.
+```
 🚪 **Exit:**  
-Type `"exit"` to terminate the program.
+Type `"exit"` to terminate the program. 
+
+### Testing 🧪
+This project includes a full test suite with Jest. To run the tests, execute:
+```bash
+npm test
+```
+This will run all test cases for both the core logic and CLI interactions.
 
 ---
 Created by [Bongekile Mncube](https://github.com/BongekileM)
