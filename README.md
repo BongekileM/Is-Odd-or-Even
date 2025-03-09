@@ -55,8 +55,8 @@ Enter an invalid value (such as "abc" or "15.5") to see an error message like "P
 * Exit:
 Type "exit" to terminate the program.
 
-## Authors 🙋🏿‍♀️
-- **Bongekile Mncube** – [BongekileM](https://github.com/BongekileM)
+---
+Created by [Bongekile Mncube](https://github.com/BongekileM) ✨
 
 
 
