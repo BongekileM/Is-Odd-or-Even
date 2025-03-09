@@ -28,19 +28,23 @@ This JavaScript program lets the user know if a given whole number is **Odd** or
 
 ### Running the Application ▶️
 To run the program, use:
-    ```bash
-    npm start
+```bash
+npm start
+```
+This command executes the CLI application. You’ll be prompted to enter a number, and the program will indicate whether the number is odd or even. Type "exit" to quit the application. 👋
 
 ### Running the Tests 🧪
-**To run the tests, execute:**
-    ```bash
-    npm test
+To run the tests, execute:
+```bash
+npm test
+```
 This command runs all test cases and displays the results in your terminal.
 
 ### Usage 📚
 **When you run the program, you will see a prompt like:**
-    ```bash
-    Enter a number (or type "exit" to quit):
+```bash
+Enter a number (or type "exit" to quit):
+```
 
 * Valid Input:
 Enter a whole number (e.g., "15") and the program will respond with "The number 15 is Odd." or "The number 15 is Even." 😃
