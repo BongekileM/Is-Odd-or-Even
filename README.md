@@ -46,19 +46,19 @@ This command runs all test cases and displays the results in your terminal.
 Enter a number (or type "exit" to quit):
 ```
 ### Expected Inputs:
-✔ Valid Input:
+✔ **Valid Input:**
 Enter a whole number (e.g., 15), and the program will respond with:
 
 "The number 15 is Odd."
 "The number 24 is Even." 😃
 
-❌ Invalid Input:
+❌ **Invalid Input:**
 Entering invalid values (e.g., "abc" or "15.5") will result in an error message:
 
 "Please enter a valid number."
 "Please enter a whole number." ⚠️
 
-🚪 Exit:
+🚪 **Exit:**
 Type "exit" to terminate the program.
 
 ---
