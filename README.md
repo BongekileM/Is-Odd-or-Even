@@ -4,7 +4,7 @@ A simple JavaScript CLI program that determines whether a given number is odd or
 ![GirlCode logo](girlcode.png "Logo")
 
 ## Overview 🚀
-This CLI program prompts the user to enter a number and determines if the number is odd or even.It was developed as a practice exercise at GirlCode.
+This CLI program prompts the user to enter a number and determines if the number is odd or even. It was developed as a practice exercise at GirlCode.
 
 ## Features 🌟
 - **Interactive CLI:** Continuously prompts for user input until "exit" is entered.
@@ -14,7 +14,7 @@ This CLI program prompts the user to enter a number and determines if the number
 ## Built With 🛠️
 - **JavaScript (ES Modules)**
 - **Node.js**
-- **Jest**(for testing)
+- **Jest** (for testing)
 
 ## Getting Started 💻
 
